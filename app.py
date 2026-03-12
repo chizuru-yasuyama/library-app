@@ -261,6 +261,7 @@ def add_book_dialog():
 
         st.session_state.search_results=search_books(query)
         st.rerun()
+#テスト
 
     if st.session_state.search_results:
 
